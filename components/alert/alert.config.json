@@ -1,0 +1,12 @@
+{
+  "context": {
+      "title": "Our users",
+      "users": [{
+          "name": "Mickey Mouse",
+          "email": "mickey@mouse.com"
+      },{
+          "name": "Daffy Duck",
+          "email": "daffy@duck.com"
+      }]
+  }
+}

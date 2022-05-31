@@ -29,3 +29,8 @@ fractal.docs.set('path', path.join(__dirname, 'docs'));
  * Tell the Fractal web preview plugin where to look for static assets.
  */
 fractal.web.set('static.path', path.join(__dirname, 'public'));
+
+
+
+fractal.set('project.version', 'v1.0');
+fractal.set('project.author', 'fanseethemes@gmail.com');

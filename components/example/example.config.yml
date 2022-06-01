@@ -1,4 +1,5 @@
 title: Example component
+status: wip
 context:
     text: This is an example component!
     hello: data

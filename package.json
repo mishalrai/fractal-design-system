@@ -6,7 +6,9 @@
     },
     "scripts": {
         "fractal:start": "fractal start --sync",
-        "fractal:build": "fractal build"
+        "fractal:build": "fractal build",
+        "start": "grunt watch",
+        "server": "fractal start --sync"
     },
     "devDependencies": {
         "grunt": "^1.5.3",

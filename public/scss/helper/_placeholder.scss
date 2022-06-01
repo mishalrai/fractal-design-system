@@ -1,0 +1,9 @@
+
+/* Clearfix for clear floating element */
+%clearfix{
+    &::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}

@@ -1,1 +1,28 @@
-<h1>FST popup search</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ path '/modules/fst-popup-search/fst-popup-search.css' }}">
+    <title>{{title}}</title>
+</head>
+<body>
+
+<h1>{{title}}</h1>
+
+<button class="fst-toggle-search">Open Search</button>
+
+<script src="{{ path '/vendors/jquery/jquery.min.js' }}"></script>
+<script src="{{ path '/modules/fst-popup-search/fst-popup-search.js' }}"></script>
+<script>
+
+    $(document).ready(function(){
+        var $selector = $('.fst-toggle-search');
+            if($selector.length){
+                $selector.fstPopupSearch();
+            }
+    });
+
+</script>
+
+</body>
+</html>

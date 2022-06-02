@@ -1,6 +1,32 @@
 $primary-color: #3F75DE;
 $while-color: #fff;
 
+/**
+ * Main color to display text for all primary
+ * purpose (Headers, body, actions) on the screen
+ * Title, body copy, component label, component text
+ */
+ $gray-darker-color: #3E4D63;
+
+ /**
+  * Ancillary colour for secondary text elements.
+  * secondary functions, labels and captions, secondary body copy
+  * icons
+  * text placeholders
+  * borders of small ui elements (i.e. checkboxes and radio)
+  */
+$main-gray-color: #627588;
+
+/**
+ * Repeated actions Disabled states
+ * active icon-buttons repeated more than twice in one place
+ * single status icons and labels in disabled states
+ * component borders
+ */
+$silver-color: #BDC8D4;
+$white-color: #fff;
+
+
 /* Status color */
 $info-color: #296EDA;
 $success-color: #5FB063;
@@ -12,3 +38,7 @@ $spacer: 8px;
 
 /* Prefix */
 $prefix: '.fst';
+
+
+/* Root font size */
+$root-font-size: 16px;

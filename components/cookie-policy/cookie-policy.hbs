@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ path '/vendors/bootstrap/bootstrap.css' }}">
+    <link rel="stylesheet" href="{{ path '/modules/cookie-policy/cookie-policy.css' }}">
+    <title>{{title}}</title>
+</head>
+<body>
+
+<script src="{{ path '/vendors/jquery/jquery.min.js' }}"></script>
+<script src="{{ path '/modules/cookie-policy/cookie-policy.js' }}"></script>
+<script>
+
+    $(document).ready(function(){
+        var config = {
+            acceptButtonCustomClass: 'deep-blue-btn-primary',
+            declineButtonCustomClass: 'deep-blue-btn-secondary',
+        }
+        new FstCookiesPolicy(config);
+    });
+
+</script>
+
+</body>
+</html>

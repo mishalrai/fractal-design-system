@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ path '/modules/fst-popup-search/fst-popup-search.css' }}">
     <link rel="stylesheet" href="{{ path '/vendors/bootstrap/bootstrap.css' }}">
+    <link rel="stylesheet" href="{{ path '/modules/popup-search/popup-search.css' }}">
     <title>{{title}}</title>
 </head>
 <body>
 
-<button class="fst-toggle-search">Open Search</button>
+<button class="fst-toggle-search btn btn-primary mt-5 mx-auto d-block">Open Search</button>
 
 <script src="{{ path '/vendors/jquery/jquery.min.js' }}"></script>
-<script src="{{ path '/modules/fst-popup-search/fst-popup-search.js' }}"></script>
+<script src="{{ path '/modules/popup-search/popup-search.js' }}"></script>
 <script>
 
     $(document).ready(function(){

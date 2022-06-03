@@ -7,6 +7,29 @@
  * License: GPL
  * https://www.gnu.org/licenses/gpl-3.0.html
  */
+/**
+ * Main color to display text for all primary
+ * purpose (Headers, body, actions) on the screen
+ * Title, body copy, component label, component text
+ */
+/**
+  * Ancillary colour for secondary text elements.
+  * secondary functions, labels and captions, secondary body copy
+  * icons
+  * text placeholders
+  * borders of small ui elements (i.e. checkboxes and radio)
+  */
+/**
+ * Repeated actions Disabled states
+ * active icon-buttons repeated more than twice in one place
+ * single status icons and labels in disabled states
+ * component borders
+ */
+/* Status color */
+/* Space */
+/* Prefix */
+/* Root font size */
+/* Clearfix for clear floating element */
 .fst-popup-search-active .fst-popup-search-wrapper {
   visibility: visible;
   opacity: 1; }

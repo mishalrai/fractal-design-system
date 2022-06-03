@@ -1,0 +1,46 @@
+.fst-cookie-notification{
+    position: fixed;
+    background: white; 
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    width: 1100px;
+    max-width: calc( 100% - 30px);
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px 0 rgba(#000, 0.1);
+    align-items: center;
+
+    svg{
+        fill: #4d6fff;
+    }
+
+    .fst-description{
+        flex-grow: 1;
+        padding: 15px 0;
+        color: #505050;
+    }
+
+    .fst-buttons{
+        text-align: right;
+
+        > a:not(:last-child){
+            margin-right: 10px;
+        }
+    }
+
+    @media(min-width: 720px){
+        display: none;
+        display: flex;
+
+        .fst-description{
+            padding: 0 25px;
+        }
+
+        .fst-buttons{
+            flex: none;
+        }
+    }
+
+}
